@@ -1,4 +1,7 @@
 Wingmancamp::Application.routes.draw do
+  root :to => 'explanations#index'
+  
+  resources :invites
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
