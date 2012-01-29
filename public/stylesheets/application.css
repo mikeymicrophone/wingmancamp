@@ -8,3 +8,7 @@ div {
 	background-color: white;
 	opacity: 0.5;
 }
+
+div.signature {
+	opacity: 1;
+}
