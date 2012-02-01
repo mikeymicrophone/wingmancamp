@@ -3,7 +3,8 @@
 <head>
   <title>Wing Man Camp</title>
   <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
+  <link href='http://fonts.googleapis.com/css?family=Sarina|Rock+Salt' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', 'jquery.backgrounder', 'application' %>
   <%= csrf_meta_tag %>
   <meta property="og:title" content="Wing Man Camp - be flirty, interesting, and respectful ALL AT ONCE" /><meta property="og:type" content="company" /><meta property="og:site_name" content="Wing Man Camp" /><meta property="og:url" content="http://wingmancamp.org" /><meta property="og:image" content="null" /><meta property="og:description" content="Wing Man Camp - shoot for the stars, land in the clouds!" />
   <%= google_analytics %>
@@ -12,5 +13,8 @@
 
 <%= yield %>
 
+<div id="brc">
+  <%= image_tag 'black_rock_city.jpg' %>
+</div>
 </body>
 </html>

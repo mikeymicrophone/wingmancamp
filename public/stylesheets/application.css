@@ -1,12 +1,27 @@
 body {
 	font-family: Trebuchet MS;
-	background: url('../images/black_rock_city.jpg');
+}
+
+h1, h2 {
+	font-family: 'Rock Salt', cursive;
 }
 
 div.explanations {
 	margin: 13px;
 	background-color: white;
-	opacity: 0.5;
+	opacity: 0.65;
+	padding-left: 8px;
+	border-radius: 15px;
+}
+
+#sign_up_link {
+	font-family: 'Sarina', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+
+#sign_up_link a {
+	color: #00036F;
 }
 
 div.signature {
