@@ -3,7 +3,7 @@ body {
 	background: url('../images/black_rock_city.jpg');
 }
 
-div {
+div.explanation {
 	margin: 13px;
 	background-color: white;
 	opacity: 0.5;
